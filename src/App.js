@@ -1,5 +1,5 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, BrowserRouter } from 'react-router-dom';
 import Root from './Root';
 import { HomePage, PortfolioPage } from './pages';
 
@@ -11,7 +11,11 @@ function App() {
       {path: 'Portfolio', element: <PortfolioPage/>}
     ]}
   ]);
-  return <RouterProvider router={router}/>
+  return (
+    <BrowserRouter basename="/my-web-portfolio">
+      <RouterProvider router={router} />
+    </BrowserRouter>
+  );
 }
 
 export default App;
