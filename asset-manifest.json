@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-web-portfolio/static/css/main.3580f633.css",
-    "main.js": "/my-web-portfolio/static/js/main.93706f7d.js",
+    "main.js": "/my-web-portfolio/static/js/main.c6f58a2d.js",
     "static/js/453.9e9fdf47.chunk.js": "/my-web-portfolio/static/js/453.9e9fdf47.chunk.js",
     "static/media/artificial-intelligence-3382507_1920.jpg": "/my-web-portfolio/static/media/artificial-intelligence-3382507_1920.1e08a6260778c12bce10.jpg",
     "static/media/myPicture1.JPG": "/my-web-portfolio/static/media/myPicture1.18d0325d18e2be0f5195.JPG",
     "index.html": "/my-web-portfolio/index.html",
     "main.3580f633.css.map": "/my-web-portfolio/static/css/main.3580f633.css.map",
-    "main.93706f7d.js.map": "/my-web-portfolio/static/js/main.93706f7d.js.map",
+    "main.c6f58a2d.js.map": "/my-web-portfolio/static/js/main.c6f58a2d.js.map",
     "453.9e9fdf47.chunk.js.map": "/my-web-portfolio/static/js/453.9e9fdf47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3580f633.css",
-    "static/js/main.93706f7d.js"
+    "static/js/main.c6f58a2d.js"
   ]
 }
