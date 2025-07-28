@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import SkillCard from '../components/SkillCard';
 
 export default function WhatICanDo() {
@@ -25,6 +26,7 @@ export default function WhatICanDo() {
   return (
     <section className="container my-5">
       <h2 className="text-center mb-4 fw-bold">What I Can Do</h2>
+      <p className="text-center mb-5">I specialize in web development, design, and digital marketing. If you'd like a full breakdown of my skills and experience, feel free to reach out or view my <Link to="/resume">resume</Link>.</p>
       <div className="row justify-content-center">
         {skills.map(({ iconClass, title, description, colorClass }) => (
           <SkillCard

@@ -4,21 +4,22 @@ export default function PortfolioSection() {
   const projects = [
     {
       title: "Project One",
-      imageUrl: "/images/project1.jpg",  // Replace with your image path
-      description: "A brief description of Project One.",
+      imageUrl: "/images/project1.jpg",
+      description: "This unnamed project is a mobile game inspired by games like Genshin Impact and Honkai Star Rail. It is a turn-based RPG with a unique combat system and an engaging storyline.",
       projectLink: "#",
     },
     {
-      title: "Project Two",
+      title: "Inferneo AI",
       imageUrl: "/images/project2.jpg",
-      description: "A brief description of Project Two.",
+      description: "This is an AI-powered companion that can help you with various tasks, be your friend, and even play games with you.",
       projectLink: "#",
     },
   ];
 
   return (
     <section className="container my-5" id="projects">
-      <h2 className="mb-4 text-center">My Projects</h2>
+      <h2 className="mb-4 text-center fw-bold">My Projects</h2>
+      <p className="text-center">Below are some of my most recent projects. All projects are currently still in development. So please be patient with me.</p>
       <div className="row g-4">
         {projects.map((project, index) => (
           <div className="col-md-6" key={index}>

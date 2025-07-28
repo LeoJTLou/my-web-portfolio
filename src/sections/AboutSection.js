@@ -2,7 +2,7 @@ import MySelfiePicture from "../assets/myPicture1.JPG";
 
 export default function AboutSection() {
     return (
-        <section>
+        <section id="about">
             <div className="container my-5">
                 <div className="row align-items-center">
                     <div className="col-md-6">
