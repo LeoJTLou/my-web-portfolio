@@ -6,9 +6,9 @@ export default function HeroSection () {
                     <h1 className="display-4 fw-bold">Hi, I am Leo Lou</h1>
                     <h3>I am a <span className="fw-bold">Web Developer</span></h3>
                     <p className="fs-5">It is very nice to meet you! Feel free to look around and see some of my work below.</p>
-                    <button className="btn btn-primary">
+                    <a className="btn btn-primary" href="#projects">
                         View My Work
-                    </button>
+                    </a>
                 </div>
                 <div className="col-md-6 text-center">
                     <img
