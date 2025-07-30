@@ -11,3 +11,55 @@ section {
     margin: 0;
   }
 }
+
+.experience-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.experience-logo {
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.experience-logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.experience-content {
+  flex: 1;
+}
+
+.experience-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.experience-meta {
+  margin: 4px 0;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.experience-location {
+  font-weight: 400;
+}
+
+.experience-dates {
+  margin: 4px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.experience-description {
+  margin-top: 0.5rem;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
