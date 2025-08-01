@@ -11,7 +11,7 @@ export default function PortfolioSection() {
     {
       title: "Inferneo AI",
       imageUrl: "/images/project2.jpg",
-      description: "This is an AI-powered companion that can help you with various tasks, be your friend, and even play games with you.",
+      description: "This is an AI-powered companion that can help you with various tasks, be your friend, and even play games with you. Inspired by apps like Grok AI. Currently only one model is available.",
       projectLink: "#",
     },
   ];
