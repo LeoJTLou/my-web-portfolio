@@ -11,7 +11,7 @@ export default function WhatICanDo() {
     },
     {
       iconClass: 'fas fa-paint-brush',
-      title: 'Web & Graphic Designer',
+      title: 'Web & UI Designer',
       description: 'Crafting beautiful, user-friendly designs and interfaces that communicate your brand effectively.',
       colorClass: 'text-success',
     },

@@ -8,6 +8,7 @@ export default function Contact() {
           className="form-control"
           id="name"
           name="name"
+          placeholder="Your name here..."
           required
         />
       </div>
@@ -19,6 +20,7 @@ export default function Contact() {
           className="form-control"
           id="email"
           name="email"
+          placeholder="Your email here..."
           required
         />
       </div>
@@ -29,7 +31,8 @@ export default function Contact() {
           className="form-control"
           id="message"
           name="message"
-          rows="5"
+          rows="7"
+          placeholder="Your message here..."
           required
         ></textarea>
       </div>

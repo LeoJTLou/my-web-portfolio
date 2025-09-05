@@ -1,17 +1,28 @@
 import ProjectCard from "../components/ProjectCard";
+import GiftBox from "../assets/anime-girl-gift.jpg";
+import AnimeStudent from "../assets/cute-anime-girl-glasses.jpg";
+import IdleCapitalistPicture from "../assets/anime-idle-tycoon.jpg";
+
+// Add a featured project section for your flagship project (still in development)
 
 export default function PortfolioSection() {
   const projects = [
     {
-      title: "Project One",
-      imageUrl: "/images/project1.jpg",
-      description: "This unnamed project is a mobile game inspired by games like Genshin Impact and Honkai Star Rail. It is a turn-based RPG with a unique combat system and an engaging storyline.",
+      title: "The Idle Capitalist",
+      imageUrl: IdleCapitalistPicture,
+      description: "Inspired by the game 'Adventure Capitalist', this is a game where you can build your own business empire. The game is still in development, but you can play it on my website.",
       projectLink: "#",
     },
     {
-      title: "Inferneo AI",
-      imageUrl: "/images/project2.jpg",
-      description: "This is an AI-powered companion that can help you with various tasks, be your friend, and even play games with you. Inspired by apps like Grok AI. Currently only one model is available.",
+      title: "Quiz Me",
+      imageUrl: AnimeStudent,
+      description: "This is a quiz app that allows you to create and take quizzes. You can create your own quizzes and share them with your friends. The app is still in development, but you can play it on my website.",
+      projectLink: "#",
+    },
+    {
+      title: "Loot Box Simulator",
+      imageUrl: GiftBox,
+      description: "This is a simulator that simulates the real odds of popular loot boxes, mystery boxes, and gacha. It is a simple app in which you can open boxes and see what you get, see the odds, and track your spending.",
       projectLink: "#",
     },
   ];
@@ -19,10 +30,10 @@ export default function PortfolioSection() {
   return (
     <section className="container my-5" id="projects">
       <h2 className="mb-4 text-center fw-bold">My Projects</h2>
-      <p className="text-center">Below are some of my most recent projects. All projects are currently still in development. So please be patient with me.</p>
+      <p className="text-center">Below are some of my most recent projects. All projects are currently still in development. So please be patient with me. Expect some bugs and glitches.</p>
       <div className="row g-4">
         {projects.map((project, index) => (
-          <div className="col-md-6" key={index}>
+          <div className="col-md-4" key={index}>
             <ProjectCard {...project} />
           </div>
         ))}
