@@ -5,7 +5,7 @@ export default function ProjectCard({ title, imageUrl, description, projectLink 
       <div className="card-body d-flex flex-column">
         <h5 className="card-title">{title}</h5>
         <p className="card-text flex-grow-1">{description}</p>
-        <a href={projectLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-auto">
+        <a href={projectLink} className="btn btn-primary mt-auto">
           View Project
         </a>
       </div>
