@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/my-web-portfolio/static/css/main.e9aac611.css",
-    "main.js": "/my-web-portfolio/static/js/main.77ecd1f1.js",
+    "main.js": "/my-web-portfolio/static/js/main.ead08d17.js",
     "static/js/453.9e9fdf47.chunk.js": "/my-web-portfolio/static/js/453.9e9fdf47.chunk.js",
     "static/media/artificial-intelligence-3382507_1920.jpg": "/my-web-portfolio/static/media/artificial-intelligence-3382507_1920.1e08a6260778c12bce10.jpg",
     "static/media/IMG_3511.jpg": "/my-web-portfolio/static/media/IMG_3511.2ad84c1a5bb409123bd4.jpg",
     "static/media/bcit_school_of_business_logo.jpg": "/my-web-portfolio/static/media/bcit_school_of_business_logo.0c5260b49cf30867a5de.jpg",
     "static/media/myPicture1.JPG": "/my-web-portfolio/static/media/myPicture1.18d0325d18e2be0f5195.JPG",
+    "static/media/anime-idle-tycoon.jpg": "/my-web-portfolio/static/media/anime-idle-tycoon.ed8d8026ee44611ec7ae.jpg",
+    "static/media/cute-anime-girl-glasses.jpg": "/my-web-portfolio/static/media/cute-anime-girl-glasses.2e6b99de18614aa39d07.jpg",
+    "static/media/anime-girl-gift.jpg": "/my-web-portfolio/static/media/anime-girl-gift.4a6951eba9804dca7b7e.jpg",
+    "static/media/GtsiSJWWYAAnaTu.webp": "/my-web-portfolio/static/media/GtsiSJWWYAAnaTu.44415ea28aeb324c64eb.webp",
     "static/media/Leo-Lou-Logo-Design.gif": "/my-web-portfolio/static/media/Leo-Lou-Logo-Design.70b9efc3e254dbc09a33.gif",
     "index.html": "/my-web-portfolio/index.html",
     "main.e9aac611.css.map": "/my-web-portfolio/static/css/main.e9aac611.css.map",
-    "main.77ecd1f1.js.map": "/my-web-portfolio/static/js/main.77ecd1f1.js.map",
+    "main.ead08d17.js.map": "/my-web-portfolio/static/js/main.ead08d17.js.map",
     "453.9e9fdf47.chunk.js.map": "/my-web-portfolio/static/js/453.9e9fdf47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9aac611.css",
-    "static/js/main.77ecd1f1.js"
+    "static/js/main.ead08d17.js"
   ]
 }
