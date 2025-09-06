@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-web-portfolio/static/css/main.e9aac611.css",
-    "main.js": "/my-web-portfolio/static/js/main.568e4e77.js",
+    "main.js": "/my-web-portfolio/static/js/main.70587dec.js",
     "static/js/453.9e9fdf47.chunk.js": "/my-web-portfolio/static/js/453.9e9fdf47.chunk.js",
     "static/media/artificial-intelligence-3382507_1920.jpg": "/my-web-portfolio/static/media/artificial-intelligence-3382507_1920.1e08a6260778c12bce10.jpg",
     "static/media/IMG_3511.jpg": "/my-web-portfolio/static/media/IMG_3511.2ad84c1a5bb409123bd4.jpg",
@@ -11,14 +11,15 @@
     "static/media/cute-anime-girl-glasses.jpg": "/my-web-portfolio/static/media/cute-anime-girl-glasses.2e6b99de18614aa39d07.jpg",
     "static/media/anime-girl-gift.jpg": "/my-web-portfolio/static/media/anime-girl-gift.4a6951eba9804dca7b7e.jpg",
     "static/media/GtsiSJWWYAAnaTu.webp": "/my-web-portfolio/static/media/GtsiSJWWYAAnaTu.44415ea28aeb324c64eb.webp",
+    "static/media/Profile.pdf": "/my-web-portfolio/static/media/Profile.1c9168c98ce8dc808ddc.pdf",
     "static/media/Leo-Lou-Logo-Design.gif": "/my-web-portfolio/static/media/Leo-Lou-Logo-Design.70b9efc3e254dbc09a33.gif",
     "index.html": "/my-web-portfolio/index.html",
     "main.e9aac611.css.map": "/my-web-portfolio/static/css/main.e9aac611.css.map",
-    "main.568e4e77.js.map": "/my-web-portfolio/static/js/main.568e4e77.js.map",
+    "main.70587dec.js.map": "/my-web-portfolio/static/js/main.70587dec.js.map",
     "453.9e9fdf47.chunk.js.map": "/my-web-portfolio/static/js/453.9e9fdf47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9aac611.css",
-    "static/js/main.568e4e77.js"
+    "static/js/main.70587dec.js"
   ]
 }
