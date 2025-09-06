@@ -1,6 +1,14 @@
 import AccordianItem from "./AccordianItem";
 import WorkExperienceItem from "./WorkExperienceItem";
 import experiences from "../data/experiences";
+import EducationItem from "./EducationItem";
+import education from "../data/education";
+import LicenseItem from "./LicenseItem";
+import licenses from "../data/licenses";
+import VolunteerItem from "./VolunteerItem";
+import volunteer from "../data/volunteer";
+import SkillCard from "./SkillCard";
+import skills from "../data/skills";
 
 export default function Accordian() {
   const items = [
@@ -20,29 +28,50 @@ export default function Accordian() {
       id: "two",
       header: "Education",
       body: (
-        <>
-          <strong>This is the second item's accordion body.</strong> You can add
-          any HTML content here.
-        </>
+        <section>
+          {education.map((edu, index) => (
+            <EducationItem key={index} {...edu} />
+          ))}
+        </section>
       ),
       isOpen: false,
     },
     {
       id: "three",
       header: "Licenses & Certifications",
-      body: "This is the third item's accordion body.",
+      body: (
+        <section>
+          {licenses.map((lic, index) => (
+            <LicenseItem key={index} {...lic} />
+          ))}
+        </section>
+      ),
       isOpen: false,
     },
     {
       id: "four",
       header: "Volunteering",
-      body: "This is the fourth item's accordion body.",
+      body: (
+        <section>
+          {volunteer.map((vol, index) => (
+            <VolunteerItem key={index} {...vol} />
+          ))}
+        </section>
+      ),
       isOpen: false,
     },
     {
       id: "five",
       header: "Skills",
-      body: "This is the fifth item's accordion body.",
+      body: (
+        <section>
+          <div className="row">
+            {skills.map((skill, index) => (
+              <SkillCard key={index} {...skill} />
+            ))}
+          </div>
+        </section>
+      ),
       isOpen: false,
     },
   ];
