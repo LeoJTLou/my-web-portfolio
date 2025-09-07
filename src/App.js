@@ -8,7 +8,7 @@ function App() {
   const router = createBrowserRouter([
     {path: '/', element: <Root/>, children: [
       {index: true, element: <HomePage/>},
-      {path: 'Portfolio', element: <PortfolioPage/>},
+      {path: 'Portfolio/:slug', element: <PortfolioPage/>},
       {path: 'Resume', element: <Resume/>}
     ]}
   ], { basename: '/my-web-portfolio' });

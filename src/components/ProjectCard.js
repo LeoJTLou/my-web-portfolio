@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function ProjectCard({ title, imageUrl, description, projectLink }) {
   return (
     <div className="card h-100 shadow-sm">
@@ -5,9 +7,9 @@ export default function ProjectCard({ title, imageUrl, description, projectLink 
       <div className="card-body d-flex flex-column">
         <h5 className="card-title">{title}</h5>
         <p className="card-text flex-grow-1">{description}</p>
-        <a href={projectLink} className="btn btn-primary mt-auto">
+        <Link to={projectLink} className="btn btn-primary mt-auto">
           View Project
-        </a>
+        </Link>
       </div>
     </div>
   );
