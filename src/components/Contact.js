@@ -1,6 +1,45 @@
+import { useState } from "react";
+
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  // update state on change
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // async submit handler
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("/mail.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json", // send JSON
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        console.log("message sent");
+      } else {
+        console.log("error sending message:", result.error);
+      }
+    } catch (err) {
+      console.log("network error:", err);
+    }
+  };
+
   return (
-    <form className="contact-form">
+    <form className="contact-form" onSubmit={handleSubmit}>
       <div className="mb-3">
         <label htmlFor="name" className="form-label">Name</label>
         <input
@@ -10,6 +49,8 @@ export default function Contact() {
           name="name"
           placeholder="Your name here..."
           required
+          value={formData.name}
+          onChange={handleChange}
         />
       </div>
 
@@ -22,6 +63,22 @@ export default function Contact() {
           name="email"
           placeholder="Your email here..."
           required
+          value={formData.email}
+          onChange={handleChange}
+        />
+      </div>
+
+      <div className="mb-3">
+        <label htmlFor="subject" className="form-label">Subject</label>
+        <input
+          type="text"
+          className="form-control"
+          id="subject"
+          name="subject"
+          placeholder="Your subject here..."
+          required
+          value={formData.subject}
+          onChange={handleChange}
         />
       </div>
 
@@ -31,9 +88,11 @@ export default function Contact() {
           className="form-control"
           id="message"
           name="message"
-          rows="7"
+          rows="5"
           placeholder="Your message here..."
           required
+          value={formData.message}
+          onChange={handleChange}
         ></textarea>
       </div>
 
