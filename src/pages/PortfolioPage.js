@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import portfoliosData from '../data/projects';
 
 import ProjectHero from '../sections/ProjectHeroSection';
+import CountdownSection from '../sections/CountdownSection';
 
 export default function PortfolioPage() {
   const { slug } = useParams();
@@ -30,6 +31,10 @@ export default function PortfolioPage() {
             image={portfolio.image}
             liveUrl={portfolio.liveUrl}
             sourceUrl={portfolio.sourceUrl}
+        />
+        <CountdownSection
+            title={`Launching ${portfolio.title} In:`}
+            targetDate={portfolio.launchdate}
         />
     </div>
   );

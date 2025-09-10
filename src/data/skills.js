@@ -33,8 +33,26 @@ const skillsData = [
     iconClass: "fa-brands fa-git-alt",
     title: "Git & GitHub",
     description: "Version control, branching strategies, and collaborative workflow.",
-    colorClass: "text-dark"
-  }
+    colorClass: "text-dark",
+  },
+  {
+    iconClass: "fa-brands fa-wordpress",
+    title: "WordPress",
+    description: "Building and customizing themes, plugins, and content management workflows.",
+    colorClass: "text-primary",
+  },
+  {
+    iconClass: "fa-brands fa-python",
+    title: "Python",
+    description: "Scripting, automation, data processing, and building prototypes.",
+    colorClass: "text-warning",
+  },
+  {
+    iconClass: "fa-brands fa-php",
+    title: "PHP",
+    description: "Server-side web development, REST APIs, and working with databases.",
+    colorClass: "text-info",
+  },
 ];
 
 export default skillsData;
