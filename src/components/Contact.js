@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Contact() {
+export default function Contact(props) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -30,11 +30,16 @@ export default function Contact() {
 
       if (result.success) {
         console.log("message sent");
+        props.setFormStatus("success");
+        // reset form
+        setFormData({ name: "", email: "", subject: "", message: "" });
       } else {
         console.log("error sending message:", result.error);
+        props.setFormStatus("error");
       }
     } catch (err) {
       console.log("network error:", err);
+      props.setFormStatus("error");
     }
   };
 
@@ -96,7 +101,7 @@ export default function Contact() {
         ></textarea>
       </div>
 
-      <button type="submit" className="btn btn-primary">
+      <button type="submit" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#successModal">
         Send Message
       </button>
     </form>
