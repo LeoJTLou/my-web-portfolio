@@ -10,8 +10,8 @@ function App() {
       {index: true, element: <HomePage/>},
       {path: 'Portfolio/:slug', element: <PortfolioPage/>},
       {path: 'Resume', element: <Resume/>}
-    ]}
-  ], { basename: '/my-web-portfolio' });
+    ],}
+  ], {basename: '/my-web-portfolio'});
   return <RouterProvider router={router}/>
 }
 

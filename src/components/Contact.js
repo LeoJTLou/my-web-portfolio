@@ -1,12 +1,19 @@
 import { useState } from "react";
 
-export default function Contact(props) {
+export default function Contact({ setFormStatus }) {
+  console.log("ContactForm setFormStatus:", setFormStatus);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
     message: "",
   });
+
+  const isFormValid =
+  formData.name.trim() !== "" &&
+  formData.email.trim() !== "" &&
+  formData.subject.trim() !== "" &&
+  formData.message.trim() !== "";
 
   // update state on change
   const handleChange = (e) => {
@@ -30,16 +37,13 @@ export default function Contact(props) {
 
       if (result.success) {
         console.log("message sent");
-        props.setFormStatus("success");
         // reset form
         setFormData({ name: "", email: "", subject: "", message: "" });
       } else {
         console.log("error sending message:", result.error);
-        props.setFormStatus("error");
       }
     } catch (err) {
       console.log("network error:", err);
-      props.setFormStatus("error");
     }
   };
 
@@ -101,7 +105,13 @@ export default function Contact(props) {
         ></textarea>
       </div>
 
-      <button type="submit" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#successModal">
+      <button 
+        type="submit" 
+        className="btn btn-primary" 
+        data-bs-toggle="modal" 
+        data-bs-target="#successModal"
+        disabled={!isFormValid}
+        >
         Send Message
       </button>
     </form>

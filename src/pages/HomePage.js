@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import HeroSection from "../sections/HeroSection";
 import AboutSection from "../sections/AboutSection";
 import WhatICanDo from "../sections/WhatICanDo";
@@ -8,7 +8,6 @@ import ContactForm from "../sections/ContactForm";
 import SuccessModal from "../components/Modal";
 
 export default function HomePage () {
-    const [formStatus, setFormStatus] = useState(null);
     return (
         <React.Fragment>
             <HeroSection />
@@ -16,12 +15,10 @@ export default function HomePage () {
             <AboutSection />
             <QuoteSection />
             <PortfolioSection />
-            <ContactForm 
-                setFormStatus={setFormStatus}
-            />
+            <ContactForm />
             <SuccessModal 
-                title={formStatus ? "Message Sent!" : "Error!"}
-                body={formStatus ? "Thank you for reaching out! I will get back to you as soon as possible." : "There was an error sending your message. Please try again later."}
+                title={"Message Sent!"}
+                body={"Thank you for reaching out! I will get back to you as soon as possible."}
             />
         </React.Fragment>
     )
