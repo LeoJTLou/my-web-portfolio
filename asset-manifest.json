@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-web-portfolio/static/css/main.e9aac611.css",
-    "main.js": "/my-web-portfolio/static/js/main.c60cbf38.js",
+    "main.js": "/my-web-portfolio/static/js/main.2a296954.js",
     "static/js/453.9e9fdf47.chunk.js": "/my-web-portfolio/static/js/453.9e9fdf47.chunk.js",
     "static/media/artificial-intelligence-3382507_1920.jpg": "/my-web-portfolio/static/media/artificial-intelligence-3382507_1920.1e08a6260778c12bce10.jpg",
     "static/media/IMG_3511.jpg": "/my-web-portfolio/static/media/IMG_3511.2ad84c1a5bb409123bd4.jpg",
@@ -16,11 +16,11 @@
     "static/media/hu-tao-wave.jpg": "/my-web-portfolio/static/media/hu-tao-wave.0046130b739222f47538.jpg",
     "index.html": "/my-web-portfolio/index.html",
     "main.e9aac611.css.map": "/my-web-portfolio/static/css/main.e9aac611.css.map",
-    "main.c60cbf38.js.map": "/my-web-portfolio/static/js/main.c60cbf38.js.map",
+    "main.2a296954.js.map": "/my-web-portfolio/static/js/main.2a296954.js.map",
     "453.9e9fdf47.chunk.js.map": "/my-web-portfolio/static/js/453.9e9fdf47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9aac611.css",
-    "static/js/main.c60cbf38.js"
+    "static/js/main.2a296954.js"
   ]
 }

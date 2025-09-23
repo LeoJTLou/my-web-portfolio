@@ -1,4 +1,8 @@
 <?php
+header("Content-Type: application/json; charset=UTF-8");
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 // Allow only POST requests
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo json_encode(["success" => false, "error" => "Invalid request"]);
@@ -46,7 +50,7 @@ $body = "
 // Headers for HTML email
 $headers  = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=UTF-8\r\n";
-$headers .= "From: $name <$email>\r\n";
+$headers .= "From: Website Contact <no-reply@leojtlou.com>\r\n";
 $headers .= "Reply-To: $email\r\n";
 
 // Send email
