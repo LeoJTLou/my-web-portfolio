@@ -11,7 +11,7 @@ export default function Footer () {
   return (
     <footer style={{ backgroundColor: '#0b1f3a' }} className="text-white pt-4 mt-5">
       <div className="container text-center">
-        <ul className="nav justify-content-center mb-3">
+        <ul className="nav justify-content-center">
           {socialLinks.map((link, index) => (
             <li className="nav-item" key={index}>
               <a href={link.href} target="_blank" rel="noopener noreferrer" className="nav-link px-3 text-white fs-4">
@@ -21,7 +21,7 @@ export default function Footer () {
           ))}
         </ul>
         <hr className="border-light" />
-        <p className="mb-0 py-2">© {new Date().getFullYear()} Leo Lou. All rights reserved.</p>
+        <p className="mb-0 pb-3">© {new Date().getFullYear()} Leo Lou. All rights reserved.</p>
       </div>
     </footer>
   );

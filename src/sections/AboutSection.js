@@ -7,9 +7,11 @@ export default function AboutSection() {
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className="fw-bold">About Me</h2>
-                        <p className="fs-5">Hey there! I'm a web developer, web designer, graphic designer, and digital marketer based in Vancouver, Canada. I love bringing creative ideas to life—whether it's building sleek websites, crafting eye-catching visuals, or helping brands grow online. I'm passionate about helping people with their digital needs and making tech more approachable and fun.</p>
+                        <p className="fs-5">Hi, I’m Leo—a web developer based in Vancouver, Canada. I help small businesses and brands grow online by creating sleek, user-friendly websites that turn visitors into customers.</p>
 
-                        <p className="fs-5">When I'm not working on projects, my favourite pastimes are playing video games, going out for hikes when the weather is nice, hanging out with friends, and watching YouTube videos. I'm also currently in the process of starting out as a content creator myself. On top of that, I always love yapping about a variety of different topics such as technology, science, history, and art. I am also planning future travels too. There are still so many countries I’d love to explore!</p>
+                        <p className="fs-5">I’ve been working solo as a developer for over five years, building projects from the ground up and handling everything from design and coding to digital marketing. This experience has taught me not just how to build functional websites, but how to create digital experiences that solve real problems.</p>
+
+                        <p className="fs-5">Beyond web development, I’m actively exploring hands-on technical pursuits like electrical work, engineering, and aviation. When I’m not building or learning, you’ll usually find me playing video games or streaming. I’m also starting out as a content creator and enjoy discussing topics like technology, science, history, art, and basically whatever I feel like talking about.</p>
                     </div>
                     <div className="col-md-6 d-flex justify-content-center">
                         <img

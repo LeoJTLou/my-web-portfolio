@@ -6,14 +6,15 @@ import Footer from './components/Footer';
 // Root Layout for all pages
 export default function Root () {
     const location = useLocation();
+    const hideLayout = location.pathname.includes('valentines-letter-lucinda');
     return (
         <React.Fragment>
             <ScrollRestoration/>
-            <HeaderMenu/>
+            {!hideLayout && <HeaderMenu />}
             <main>
                 <Outlet key={location.pathname}/>
             </main>
-            <Footer/>
+            {!hideLayout && <Footer />}
         </React.Fragment>
     )
 }

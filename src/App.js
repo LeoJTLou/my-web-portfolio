@@ -11,7 +11,8 @@ function App() {
       {path: 'Portfolio/:slug', element: <PortfolioPage/>},
       {path: 'Resume', element: <Resume/>}
     ],}
-  ], {basename: '/my-web-portfolio'});
+  ] // add basename for GitHub Pages and homepage for github pages deployment in package.json
+);
   return <RouterProvider router={router}/>
 }
 

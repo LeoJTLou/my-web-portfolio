@@ -10,7 +10,7 @@ const portfoliosData = [
     image: IdleCapitalistImg,
     liveUrl: "",
     sourceUrl: "",
-    launchdate: "2026-06-25T23:59:59",
+    launchdate: new Date(2026, 6, 25),
     details: [],
   },
   {
@@ -20,7 +20,7 @@ const portfoliosData = [
     image: QuizMeImg,
     liveUrl: "",
     sourceUrl: "",
-    launchdate: "2026-03-11T23:59:59",
+    launchdate: new Date(2026, 4, 11),
     details: [],
   },
   {
@@ -30,7 +30,7 @@ const portfoliosData = [
     image: LootBoxSimulatorImg,
     liveUrl: "",
     sourceUrl: "",
-    launchdate: "2025-11-15T23:59:59",
+    launchdate: new Date(2026, 8, 25),
     details: [],
   }
 ];

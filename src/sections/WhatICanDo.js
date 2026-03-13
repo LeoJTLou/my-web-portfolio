@@ -6,7 +6,7 @@ export default function WhatICanDo() {
     {
       iconClass: 'fas fa-code',
       title: 'Web Developer',
-      description: 'Building responsive, fast, and scalable web applications using modern technologies and best practices.',
+      description: 'Building responsive, fast, and scalable web applications using modern technologies.',
       colorClass: 'text-primary',
     },
     {
@@ -16,9 +16,9 @@ export default function WhatICanDo() {
       colorClass: 'text-success',
     },
     {
-      iconClass: 'fas fa-bullhorn',
-      title: 'Digital Marketer',
-      description: 'Creating impactful marketing strategies to grow your online presence and connect with your audience.',
+      iconClass: 'fas fa-tools',
+      title: 'QA & Testing',
+      description: 'Ensuring code quality with thorough testing, debugging, and attention to detail.',
       colorClass: 'text-warning',
     },
   ];
